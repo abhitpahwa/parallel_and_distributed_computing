@@ -8,3 +8,4 @@ codes related to parallel and ditributed computing
 - matrix_200* 200_1.c : text file of matrix 1 created using create_matrix.py
 - matrix_200* 200_2.c : text file of matrix 2 created using create_matrix.py
 - pdc_lab1_d.c : print the reverese of a string and another string created by shifting the letter to next letter
+- pdc_lab2_a.c : print numbers from 1 to 10000 using omp
