@@ -11,7 +11,6 @@ codes related to parallel and ditributed computing
 - pdc_lab2_f.c : print the result of addition of 2 matrices stored in text files using omp and dynamic scheduling
 - pdc_lab2_g.c : print the result of addition of 2 matrices stored in text files using omp and guided scheduling
 - pdc_lab2_h.c : print the result of addition of 2 matrices stored in text files using omp and static scheduling
-- textfile.txt : pdc_lab1_b.c requires a file with the given name; the text inside can be edited.
 - pdc_lab1_c.c : print the result of matrix addition and matrix subtraction of size 200 * 200 (matrices read from files)
 - create_matrix_100* 100.py : python script to create 100 * 100 matrices to be used in pdc_lab2_d.c,pdc_lab2_e.c,pdc_lab2_f.c,pdc_lab2_g.c,pdc_lab2_h.c
 - create_matrix_200* 200.py : python script to create 200 * 200 matrices to be used in pdc_lab1_c.c
@@ -19,3 +18,4 @@ codes related to parallel and ditributed computing
 - matrix_100* 100_2.c : text file of matrix 2 created using create_matrix_100* 100.py
 - matrix_200* 200_1.c : text file of matrix 1 created using create_matrix.py
 - matrix_200* 200_2.c : text file of matrix 2 created using create_matrix.py
+- textfile.txt : pdc_lab1_b.c requires a file with the given name; the text inside can be edited.
