@@ -4,9 +4,18 @@ codes related to parallel and ditributed computing
 - pdc_lab1_b.c : print number of vowels and consonants in a given text file
 - textfile.txt : pdc_lab1_b.c requires a file with the given name; the text inside can be edited.
 - pdc_lab1_c.c : print the result of matrix addition and matrix subtraction of size 200 * 200 (matrices read from files)
-- create_matrix.py : python script to create 200 * 200 matrices to be used in pdc_lab1_c.c
+- matrix_100* 100_1.c : text file of matrix 1 created using create_matrix_100* 100.py
+- matrix_100* 100_2.c : text file of matrix 2 created using create_matrix_100* 100.py
+- create_matrix_200* 200.py : python script to create 200 * 200 matrices to be used in pdc_lab1_c.c
+- create_matrix_100* 100.py : python script to create 100 * 100 matrices to be used in pdc_lab2_c.c
 - matrix_200* 200_1.c : text file of matrix 1 created using create_matrix.py
 - matrix_200* 200_2.c : text file of matrix 2 created using create_matrix.py
 - pdc_lab1_d.c : print the reverese of a string and another string created by shifting the letter to next letter
 - pdc_lab2_a.c : print numbers from 1 to 10000 using omp
 - pdc_lab2_b.c : print the result of addition of 2 matrices using omp
+- pdc_lab2_c.c : print the result of addition of 2 matrices using omp and collapse
+- pdc_lab2_d.c : print the result of addition of 2 matrices stored in text files using omp
+- pdc_lab2_e.c : print the result of addition of 2 matrices stored in text files using omp and collapse
+- pdc_lab2_f.c : print the result of addition of 2 matrices stored in text files using omp and dynamic scheduling
+- pdc_lab2_g.c : print the result of addition of 2 matrices stored in text files using omp and guided scheduling
+- pdc_lab2_h.c : print the result of addition of 2 matrices stored in text files using omp and static scheduling
