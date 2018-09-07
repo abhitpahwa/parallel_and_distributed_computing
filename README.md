@@ -17,6 +17,10 @@ codes related to parallel and ditributed computing
 - pdc_lab3_c.c : print the result of summation of elements of vectors using omp reduction
 - pdc_lab4_a.c : print the maximum value of a vector using omp reduction
 - pdc_lab4_b.c : print the words occuring more than twice and their count in a text file using omp reduction
+- pdc_lab5_a.c : producer-consumer problem using mutex, wait, signal
+- pdc_lab5_b.c : producer-consumer problem using omp
+- pdc_lab5_c.c : reader-writer problem using semaphores
+- pdc_lab5_d.c : reader-writer problem using omp
 - create_matrix_100* 100.py : python script to create 100 * 100 matrices to be used in pdc_lab2_d.c,pdc_lab2_e.c,pdc_lab2_f.c,pdc_lab2_g.c,pdc_lab2_h.c
 - create_matrix_200* 200.py : python script to create 200 * 200 matrices to be used in pdc_lab1_c.c
 - matrix_100* 100_1.c : text file of matrix 1 created using create_matrix_100* 100.py
