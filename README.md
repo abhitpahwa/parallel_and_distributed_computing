@@ -25,11 +25,11 @@ codes related to parallel and ditributed computing
 - pdc_lab6_b.c : producer-consumer problem using sections and locks in omp
 - pdc_lab6_c.c : create 2 child process; use one to print prime numbers and other for armstrong numbers from 1 to 1000
 - pdc_lab7_a.c : print the result of multiplication of 2 matrices using sequential code
-- pdc_lab7_b.c : 
-- pdc_lab7_c.c :
-- pdc_lab7_d.c :
-- pdc_lab7_e.c :
-- pdc_lab7_f.c :
+- pdc_lab7_b.c : print the result of multiplication of 2 matrices using omp with outermost loop parallelized
+- pdc_lab7_c.c : print the result of multiplication of 2 matrices using omp with outer 2 loops parallelized 
+- pdc_lab7_d.c : print the result of multiplication of 2 matrices using omp with all loops parallelized
+- pdc_lab7_e.c : print the prime numbers using sieve of eratosthenes with help of omp
+- pdc_lab7_f.c : print the prime numbers using sieve of eratosthenes with help of pthreads
 - create_matrix_100* 100.py : python script to create 100 * 100 matrices to be used in pdc_lab2_d.c,pdc_lab2_e.c,pdc_lab2_f.c,pdc_lab2_g.c,pdc_lab2_h.c
 - create_matrix_200* 200.py : python script to create 200 * 200 matrices to be used in pdc_lab1_c.c
 - matrix_100* 100_1.c : text file of matrix 1 created using create_matrix_100* 100.py
