@@ -1,5 +1,6 @@
 # parallel_and_distributed_computing
 codes related to parallel and ditributed computing
+all the external files required in code files are available in the repository
 - pdc_lab1_a.c : print prime numbers from 1 to 500 and 501 to 1000 using 2 threads
 - pdc_lab1_b.c : print number of vowels and consonants in a given text file
 - pdc_lab1_c.c : print the result of matrix addition and matrix subtraction of size 200 * 200 (matrices read from files)
@@ -24,18 +25,19 @@ codes related to parallel and ditributed computing
 - pdc_lab6_a.c : producer-consumer problem using sections and critical in omp
 - pdc_lab6_b.c : producer-consumer problem using sections and locks in omp
 - pdc_lab6_c.c : create 2 child process; use one to print prime numbers and other for armstrong numbers from 1 to 1000
+- pdc_lab6_d.c : print the prime numbers using sequential code of sieve of eratosthenes
 - pdc_lab7_a.c : print the result of multiplication of 2 matrices using sequential code
 - pdc_lab7_b.c : print the result of multiplication of 2 matrices using omp with outermost loop parallelized
 - pdc_lab7_c.c : print the result of multiplication of 2 matrices using omp with outer 2 loops parallelized 
 - pdc_lab7_d.c : print the result of multiplication of 2 matrices using omp with all loops parallelized
 - pdc_lab7_e.c : print the prime numbers using sieve of eratosthenes with help of omp
 - pdc_lab7_f.c : print the prime numbers using sieve of eratosthenes with help of pthreads
-- create_matrix_100* 100.py : python script to create 100 * 100 matrices to be used in pdc_lab2_d.c,pdc_lab2_e.c,pdc_lab2_f.c,pdc_lab2_g.c,pdc_lab2_h.c
-- create_matrix_200* 200.py : python script to create 200 * 200 matrices to be used in pdc_lab1_c.c
+- create_matrix_100* 100.py : python script to create 100 * 100 matrices 
+- create_matrix_200* 200.py : python script to create 200 * 200 matrices 
 - matrix_100* 100_1.c : text file of matrix 1 created using create_matrix_100* 100.py
 - matrix_100* 100_2.c : text file of matrix 2 created using create_matrix_100* 100.py
 - matrix_200* 200_1.c : text file of matrix 1 created using create_matrix.py
 - matrix_200* 200_2.c : text file of matrix 2 created using create_matrix.py
-- textfile.txt : pdc_lab1_b.c requires a file with the given name; the text inside can be edited.
-- textfile1.txt : pdc_lab4_b.c requires a file with the given name; the text inside can be edited.
-- name.txt : pdc_lab3_a.c requires a file with the given name; the text inside can be edited
+- textfile.txt :  random text file, text inside can be edited.
+- textfile1.txt : random text file, the text inside can be edited.
+- name.txt : text file containing name, the text inside can be edited
