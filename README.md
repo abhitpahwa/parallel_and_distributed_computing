@@ -32,12 +32,17 @@ all the external files required in code files are available in the repository
 - pdc_lab7_d.c : print the result of multiplication of 2 matrices using omp with all loops parallelized
 - pdc_lab7_e.c : print the prime numbers using sieve of eratosthenes with help of omp
 - pdc_lab7_f.c : print the prime numbers using sieve of eratosthenes with help of pthreads
+- pdc_lab8_a.c : print the result of multiplication of 2 matrices using omp collapse
+- pdc_lab8_b.c : same as pdc_lab7_d.c with options to choose size of matrix
 - create_matrix_100* 100.py : python script to create 100 * 100 matrices 
 - create_matrix_200* 200.py : python script to create 200 * 200 matrices 
+- create_matrix_300* 300.py : python script to create 300 * 300 matrices
 - matrix_100* 100_1.c : text file of matrix 1 created using create_matrix_100* 100.py
 - matrix_100* 100_2.c : text file of matrix 2 created using create_matrix_100* 100.py
-- matrix_200* 200_1.c : text file of matrix 1 created using create_matrix.py
-- matrix_200* 200_2.c : text file of matrix 2 created using create_matrix.py
+- matrix_200* 200_1.c : text file of matrix 1 created using create_matrix_200* 200.py
+- matrix_200* 200_2.c : text file of matrix 2 created using create_matrix_200* 200.py
+- matrix_300* 300_2.c : text file of matrix 3 created using create_matrix_300* 300.py
+- matrix_300* 300_2.c : text file of matrix 3 created using create_matrix_300* 300.py
 - textfile.txt :  random text file, text inside can be edited.
 - textfile1.txt : random text file, the text inside can be edited.
 - name.txt : text file containing name, the text inside can be edited
