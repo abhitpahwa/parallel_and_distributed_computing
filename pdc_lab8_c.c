@@ -1,3 +1,5 @@
+//HELLO WORLD MPI PROGRAM IN C
+
 #include <mpi.h>
 #include <stdio.h>
 
