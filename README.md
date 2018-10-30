@@ -38,6 +38,9 @@ all the external files required in code files are available in the repository
 - pdc_lab9_a.c : using mpi to execute the following problem --> Process P0 sends a number to P1 and P1 checks whether it’s an odd number or even number, and sends the result to P2.
 - pdc_lab9_b.c : using mpi to execute the following problem --> P0 sends a number to P1, P2, P3. P1 checks whether it’s an odd number or even number and sends the result to P4. P2 checks whether the number is prime or not, and sends the result to P5. P3 checks whether the number is Armstrong or not and sends the result to P6.
 - pdc_lab9_c.c : using mpi to execute the following problem --> P0 sends a string to P1,P2. P1 counts the vowels from the string and sends the count to P3. P2 counts the consonants and sends the count to P4.
+- pdc_lab10_a.c : using mpi to broadcast message to other processes using MPI_Bcast
+- pdc_lab10_b.c : using mpi to scatter elements of array to all processes using MPI_Scatter
+- pdc_lab10_c.c : using mpi to gather elements from other processes into an array using MPI_Gather 
 - create_matrix_100* 100.py : python script to create 100 * 100 matrices 
 - create_matrix_200* 200.py : python script to create 200 * 200 matrices 
 - create_matrix_300* 300.py : python script to create 300 * 300 matrices
