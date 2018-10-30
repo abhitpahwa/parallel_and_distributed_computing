@@ -40,7 +40,9 @@ all the external files required in code files are available in the repository
 - pdc_lab9_c.c : using mpi to execute the following problem --> P0 sends a string to P1,P2. P1 counts the vowels from the string and sends the count to P3. P2 counts the consonants and sends the count to P4.
 - pdc_lab10_a.c : using mpi to broadcast message to other processes using MPI_Bcast
 - pdc_lab10_b.c : using mpi to scatter elements of array to all processes using MPI_Scatter
-- pdc_lab10_c.c : using mpi to gather elements from other processes into an array using MPI_Gather 
+- pdc_lab10_c.c : using mpi to gather elements from other processes into an array in P0 using MPI_Gather 
+- pdc_lab11_a.c : using mpi to scatter elements of array to all processes and printing name of digits in a number
+- pdc_lab11_b.c : using mpi to gather elements of array from other processes into an array in P0 and then sorting the array
 - create_matrix_100* 100.py : python script to create 100 * 100 matrices 
 - create_matrix_200* 200.py : python script to create 200 * 200 matrices 
 - create_matrix_300* 300.py : python script to create 300 * 300 matrices
