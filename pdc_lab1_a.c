@@ -41,7 +41,7 @@ int main(){
 	
 	p2=pthread_create(&thread2,NULL,print1000,NULL);
 	
-	if(p1){
+	if(p2){
 		fprintf(stderr,"Error in pthread_create() with return code: %d\n",p2);
 		exit(EXIT_FAILURE);
 	}
